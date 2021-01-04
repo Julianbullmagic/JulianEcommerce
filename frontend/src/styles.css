@@ -1,6 +1,9 @@
 /**
  * border radius
  */
+button{
+  color:red;
+}
 
 .jumbotron,
 .nav :hover {
