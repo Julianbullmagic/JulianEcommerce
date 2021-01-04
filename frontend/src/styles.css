@@ -1,0 +1,173 @@
+/**
+ * border radius
+ */
+
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+/* zip code field */
+
+/* Chrome, Safari, Edge, Opera */
+#zip-code-field::-webkit-outer-spin-button,
+#zip-code-field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+#zip-code-field[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.hidden {
+  display: none;
+}
+
+/* address-modal */
+
+.address-modal {
+  white-space: pre-wrap;
+  background: white;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 5px;
+  position: absolute;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.name-address-modal-container:hover .hidden {
+  display: block;
+}
+
+.order-recipient-name {
+  color: rgb(21, 127, 251);
+  cursor: pointer;
+}
+
+.order-recipient-name:hover {
+  text-decoration: underline;
+}
+
+/* cart badge */
+
+#cart-badge-container {
+}
+
+#cart-badge,
+#cart-badge:hover {
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 12px;
+  font-style: italic;
+  background: #000;
+  text-align: center;
+}
+/**
+ * single product page - product name
+ */
+
+.name {
+  background: rgb(21, 127, 251);
+  color: #fff;
+  font-weight: bold;
+}
+
+/* menu bar */
+
+.menu-bar {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(21, 127, 251);
+  z-index: 50;
+}
+
+/* black shade form 10-1 */
+.black-10 {
+  background: #f2f2f2;
+}
+.black-9 {
+  background: #e6e6e6;
+}
+.black-8 {
+  background: #d9d9d9;
+}
+.black-7 {
+  background: #cccccc;
+}
+.black-6 {
+  background: #bfbfbf;
+}
+.black-5 {
+  background: #b3b3b3;
+}
+
+/**
+ * product image on card
+ */
+
+.product-img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.jumbotron h2 {
+  margin-top: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .jumbotron h2 {
+    margin-top: 10px;
+  }
+}
+
+/**
+ * jumbotron animation
+ */
+
+.jumbotron {
+  height: 180px;
+  color: #fff;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
