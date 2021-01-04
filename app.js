@@ -30,7 +30,7 @@ mongoose
 mongoose.set("useCreateIndex", true);
 
 mongoose.connection.on("error", (err) => {
-  console.log(`DB connection error: ${err}`);
+  console.log(`DB connection err: ${err}`);
 });
 
 // middlewares
