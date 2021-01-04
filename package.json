@@ -2,6 +2,10 @@
   "name": "ecommerce-mern",
   "version": "1.0.0",
   "description": "",
+  "engine":{
+    "node":"12.19.0",
+    "npm":"6.14.8"
+  },
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
